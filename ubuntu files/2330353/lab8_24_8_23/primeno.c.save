@@ -1,0 +1,90 @@
+/*
+
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+  float a, b, c, dis, r1, r2;
+
+  printf("Enter the coefficients a, b, and c: ");
+  scanf("%f %f %f", &a, &b, &c);
+
+  dis = b * b - 4 * a * c;
+
+  if (dis > 0) {
+    r1 = (-b + sqrt(dis)) / (2 * a);
+    r2 = (-b - sqrt(dis)) / (2 * a);
+    printf("The roots of the equation are: %.2f and %.2f\n", r1, r2);
+  } else if (dis == 0) {
+    r1 = -b / (2 * a);
+    printf("The root of the equation is: %.2f\n", r1);
+  } else {
+    printf("The roots is not possible\n");
+  }
+
+  return 0;
+}
+*/
+
+#include <stdio.h>
+#include <math.h>
+
+void main()
+{
+  double a, b, c;
+  double dis, r1, r2;
+
+  printf("Enter coefficients a, b, and c: ");
+  scanf("%lf %lf %lf", &a, &b, &c);
+  dis = b * b - 4 * a * c;
+
+  if (dis > 0)
+  {
+
+    r1 = (-b + sqrt(dis)) / (2 * a);
+    r2 = (-b - sqrt(dis)) / (2 * a);
+    printf("Root 1 = %.2lf\n", r1);
+    printf("Root 2 = %.2lf\n", r2);
+  }
+  else if (dis == 0)
+  {
+
+    r1 = -b / (2 * a);
+    printf("Root = %.2lf\n", r1);
+  }
+  else
+  {
+
+    double realPart = -b / (2 * a);
+    double imaginaryPart = sqrt(-dis) / (2 * a);
+    printf("Root 1 = %.2lf + %.2lfi\n", realPart, imaginaryPart);
+    printf("Root 2 = %.2lf - %.2lfi\n", realPart, imaginaryPart);
+  }
+}#include<stdio.h>
+#include<math.h>
+void main()
+{
+
+ int i , num  , count = 0;
+
+  printf("please enter a number to check is prime or not:\n");
+  scanf("%d",&num);
+    for(i = 2; i<=sqrt(num); i++)
+    {
+       if( num %i == 0)
+        {
+        count++;
+        printf(" i value is %d\n",i);
+        }
+
+     }
+     if(count>1)
+       printf("Enter no. is %d is not a prime no.\n",num);
+
+       else
+
+         printf("Enter no. %d is a prime no.\n",num);
+
+
+}
+printf("Enter no. %d is a prime no.\n",num);printf("Enter no. %d is a prime no.\n",num);printf("Enter no. %d is a prime no.\n",num);printf("Enter no. %d is a prime no.\n",num);printf("Enter no. %d is a prime no.\n",num);printf("Enter no. %d is a prime no.\n",num);printf("Enter no. %d is a prime no.\n",num);

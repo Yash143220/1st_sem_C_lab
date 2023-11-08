@@ -1,0 +1,19 @@
+ # Q.What is the need of function protype?
+
+function prototype informs the compiler about the 
+function name , 
+function return type and 
+number of arguments with its type.
+
+
+# Based on function argument and function return type 
+four types of functions are exist
+
+
+#1  Function having no arguments and  having no return type.
+
+#2  Function having no arguments and but having return type.
+
+#3  Function having  arguments and  no return type.
+
+#4  Function having no arguments and  having return too.

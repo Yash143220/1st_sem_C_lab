@@ -1,0 +1,1 @@
+read storage class from pdf
