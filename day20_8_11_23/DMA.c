@@ -27,4 +27,6 @@ Types of pointrs and its  Advantages & Disadvantages with example:-
 16. Constant Pointer
 */
 
+
+
 //incomplete
