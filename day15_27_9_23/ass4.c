@@ -2,6 +2,21 @@
 #include <stdio.h>
 #include <string.h>
 
+
+void printLastChar(const char *str);
+
+int main()
+{
+    char str[1000];
+    printf("Enter a string: ");
+
+    gets(str);
+    // scanf("%[^\n]s", str);
+
+    printLastChar(str);
+    return 0;
+}
+
 void printLastChar(const char *str)
 {
     int len = strlen(str);
@@ -13,15 +28,5 @@ void printLastChar(const char *str)
             printf("%c ", str[i - 1]);
         }
     }
-}
-
-int main()
-{
-    char str[1000];
-    printf("Enter a string: ");
-
-    gets(str);
-
-    printLastChar(str);
-    return 0;
+    printf("%c",str[len - 1]);
 }

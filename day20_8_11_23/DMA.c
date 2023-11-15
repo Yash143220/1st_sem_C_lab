@@ -13,9 +13,6 @@ Types of pointrs and its  Advantages & Disadvantages with example:-
 2. Wild Pointer
 3. Dangling Pointer
 4. Void Pointer
-
-
-
 5. Generic Pointer
 6. Function Pointer
 7. Array of Pointer

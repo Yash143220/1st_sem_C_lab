@@ -1,0 +1,66 @@
+What is a structure
+
+How to create a structure
+
+Syntax: struct structure_name{
+    member fields;
+    member fields;
+    member fields;
+};
+
+struct student{
+    int roll;
+    int marks;
+};
+
+void main()
+{
+
+}
+
+
+How to create a variable of a user defined data type like structure 
+
+Method 1:
+
+create the variable by writing a variable name before semicolon where structure is defined.
+
+
+#include <stdio.h>
+
+struct student{
+    int roll;
+    int marks;
+};
+
+
+
+
+
+Method 2:
+
+Use a variable name in the main using syntax struct structure_name structure_variable
+
+eg.
+
+struct student str1;
+
+
+#include <stdio.h>
+
+struct student{
+    int roll;
+    int marks;
+}str1;
+
+void main()
+{
+    struct student str1;
+
+    printf("Pls Enter the student roll number:");
+    scanf("%d",&str1.roll);
+    printf("Pls Enter the student marks:");
+    scanf("%d",&str1.marks);
+
+    printf("Student roll %d and marks %d",str1.roll, str1.makrs);
+}
