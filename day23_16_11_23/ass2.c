@@ -1,0 +1,1 @@
+// write the above program using union , provide the value and print data in screen.
