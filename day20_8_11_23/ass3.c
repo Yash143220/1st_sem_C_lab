@@ -48,7 +48,7 @@ int main()
         scanf("%d", ptr + i);
     }
 
-    printf("Given Array is:");
+    printf("New Array is:");
 
     for (i = 0; i < n2; i++)
     {

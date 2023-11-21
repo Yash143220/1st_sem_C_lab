@@ -1,1 +1,22 @@
 //give an example of enum type told in lab
+
+#include <stdio.h>
+
+enum week
+{
+    sunday,
+    monday,
+    tuesday,
+    wednesday,
+    thursday,
+    friday,
+    saturday
+};
+
+int main()
+{
+    enum week today;
+    today = wednesday;
+    printf("Day %d", today + 1);
+    return 0;
+}

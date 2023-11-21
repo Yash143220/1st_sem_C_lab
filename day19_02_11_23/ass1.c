@@ -24,7 +24,7 @@ int main()
    
     avg = getAverage(a, n);
 
-    printf("Average value is: %f\n", avg);
+    printf("Average value is: %.2f\n", avg);
     return 0;
 }
 double getAverage(int *arr, int size)
