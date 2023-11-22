@@ -1,4 +1,4 @@
-//give atleast one example of each #include <stdio.h>
+//give atleast one example of each storage class
 
 #include<stdio.h>
 

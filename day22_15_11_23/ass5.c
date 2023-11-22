@@ -3,7 +3,7 @@
 /*
 #include <stdio.h>
 
-struct Employee
+struct Employee 
 {
     char name[50];
     int id;

@@ -1,4 +1,5 @@
 //wap to using structure student (name , roll, marks) and print it 
+//provide the value and print it and print each field memory address 
 
 #include <stdio.h>
 
