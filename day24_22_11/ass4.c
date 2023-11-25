@@ -7,7 +7,7 @@ int main()
 
     FILE *fp;
     char ch;
-    int nol = 0, not = 0, nob = 0, noc = 0;
+    int now = 0, noc = 0;
     fp = fopen("test.txt", "r");
     while (1)
     {
@@ -16,11 +16,11 @@ int main()
             break;
         noc++;
         if (ch == ' ')
-            nob++;
+            now++;
     }
 
     fclose(fp);
     printf("\n Number of characters = %d", noc);
-    printf("\n Number of words = %d", nob + 1);
+    printf("\n Number of words = %d", now + 1);
     return 0;
 }
