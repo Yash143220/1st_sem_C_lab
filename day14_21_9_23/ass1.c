@@ -18,8 +18,8 @@ void main()          // calling function
 void swap(int x, int y)
 {
 
-    x = x - y;
-    y = x + y;
+    x = x + y;
+    y = x - y;
     x = x - y;
 
     printf("After swap value of n1 = %d and n2 = %d\n", x, y);

@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 
-int SUM_ARRAY(int a[], int); // function prototype
+int SUM_ARRAY(int [], int); // function prototype
 
 int main()
 {
